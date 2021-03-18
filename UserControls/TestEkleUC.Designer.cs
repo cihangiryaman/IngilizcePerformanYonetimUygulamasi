@@ -39,15 +39,11 @@
             this.sinavSure_txt = new ns1.BunifuMetroTextbox();
             this.konuSecme_cmb = new System.Windows.Forms.ComboBox();
             this.konularBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.ingilizcePerformansVeritabaniDataSet = new IngilizcePerformanYonetimUygulamasi.IngilizcePerformansVeritabaniDataSet();
             this.sinavSube_cmb = new System.Windows.Forms.ComboBox();
             this.siniflarBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.konularBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.konularTableAdapter = new IngilizcePerformanYonetimUygulamasi.IngilizcePerformansVeritabaniDataSetTableAdapters.KonularTableAdapter();
-            this.siniflarTableAdapter = new IngilizcePerformanYonetimUygulamasi.IngilizcePerformansVeritabaniDataSetTableAdapters.SiniflarTableAdapter();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.konularBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ingilizcePerformansVeritabaniDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.siniflarBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.konularBindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -210,12 +206,9 @@
             // konularBindingSource
             // 
             this.konularBindingSource.DataMember = "Konular";
-            this.konularBindingSource.DataSource = this.ingilizcePerformansVeritabaniDataSet;
             // 
             // ingilizcePerformansVeritabaniDataSet
             // 
-            this.ingilizcePerformansVeritabaniDataSet.DataSetName = "IngilizcePerformansVeritabaniDataSet";
-            this.ingilizcePerformansVeritabaniDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // sinavSube_cmb
             // 
@@ -235,20 +228,16 @@
             // siniflarBindingSource
             // 
             this.siniflarBindingSource.DataMember = "Siniflar";
-            this.siniflarBindingSource.DataSource = this.ingilizcePerformansVeritabaniDataSet;
             // 
             // konularBindingSource1
             // 
             this.konularBindingSource1.DataMember = "Konular";
-            this.konularBindingSource1.DataSource = this.ingilizcePerformansVeritabaniDataSet;
             // 
             // konularTableAdapter
             // 
-            this.konularTableAdapter.ClearBeforeFill = true;
             // 
             // siniflarTableAdapter
             // 
-            this.siniflarTableAdapter.ClearBeforeFill = true;
             // 
             // TestEkleUC
             // 
@@ -265,7 +254,6 @@
             this.Load += new System.EventHandler(this.TestEkleUC_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.konularBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ingilizcePerformansVeritabaniDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.siniflarBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.konularBindingSource1)).EndInit();
             this.ResumeLayout(false);
@@ -281,11 +269,8 @@
         public System.Windows.Forms.ComboBox sinavSube_cmb;
         public System.Windows.Forms.ComboBox konuSecme_cmb;
         private System.Windows.Forms.BindingSource konularBindingSource;
-        private IngilizcePerformansVeritabaniDataSet ingilizcePerformansVeritabaniDataSet;
         private System.Windows.Forms.BindingSource konularBindingSource1;
-        private IngilizcePerformansVeritabaniDataSetTableAdapters.KonularTableAdapter konularTableAdapter;
         private System.Windows.Forms.BindingSource siniflarBindingSource;
-        private IngilizcePerformansVeritabaniDataSetTableAdapters.SiniflarTableAdapter siniflarTableAdapter;
         public ns1.BunifuMetroTextbox sinavIsim_txt;
         public ns1.BunifuMetroTextbox sinavSure_txt;
     }

@@ -96,9 +96,9 @@ namespace IngilizcePerformanYonetimUygulamasi
                 sinifDuzeyineGoreSorgulama_cmb = new ComboBox();
                 foreach (var item in sinifBLL.GetAllByExpression())
                 {
-                    if (!sinifDuzeyleri.Contains(item.Sinif_Derece))
+                    if (!sinifDuzeyleri.Contains(item.Sinif_DuzeyId))
                     {
-                        sinifDuzeyleri.Add(item.Sinif_Derece);
+                        sinifDuzeyleri.Add(item.Sinif_DuzeyId);
                     }
                 }
                 sinifDuzeyineGoreSorgulama_cmb.Location = new Point(0, 5);

@@ -139,6 +139,7 @@ namespace IngilizcePerformanYonetimUygulamasi
                 resimYolu = konuAnlatimiBLL.AddPicture(open.FileName, (int)konuSecme_cmb.SelectedValue, dosyaIsmi);
             }
 
+
             konuAnlatimiBLL = new KonuAnlatimiBLL()
             {
                 Icerik = icerik_txt.Text,

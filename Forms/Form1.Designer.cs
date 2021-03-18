@@ -30,26 +30,19 @@
         {
             this.components = new System.ComponentModel.Container();
             this.konularBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.ingilizcePerformansVeritabaniDataSet = new IngilizcePerformanYonetimUygulamasi.IngilizcePerformansVeritabaniDataSet();
-            this.konularTableAdapter = new IngilizcePerformanYonetimUygulamasi.IngilizcePerformansVeritabaniDataSetTableAdapters.KonularTableAdapter();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.konularBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ingilizcePerformansVeritabaniDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // konularBindingSource
             // 
             this.konularBindingSource.DataMember = "Konular";
-            this.konularBindingSource.DataSource = this.ingilizcePerformansVeritabaniDataSet;
             // 
             // ingilizcePerformansVeritabaniDataSet
             // 
-            this.ingilizcePerformansVeritabaniDataSet.DataSetName = "IngilizcePerformansVeritabaniDataSet";
-            this.ingilizcePerformansVeritabaniDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // konularTableAdapter
             // 
-            this.konularTableAdapter.ClearBeforeFill = true;
             // 
             // flowLayoutPanel1
             // 
@@ -68,15 +61,12 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.konularBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ingilizcePerformansVeritabaniDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private IngilizcePerformansVeritabaniDataSet ingilizcePerformansVeritabaniDataSet;
         private System.Windows.Forms.BindingSource konularBindingSource;
-        private IngilizcePerformansVeritabaniDataSetTableAdapters.KonularTableAdapter konularTableAdapter;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

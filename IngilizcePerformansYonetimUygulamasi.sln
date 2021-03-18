@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngilizcePerformansDAL", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngilizcePerformansBLL", "..\IngilizcePerformansBLL\IngilizcePerformansBLL.csproj", "{23456EE8-A8B5-48A0-AE45-283EB6CAD1C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngilizcePerformansEntities", "..\IngilizcePerformansEntities\IngilizcePerformansEntities.csproj", "{2EA36C38-BB5C-4111-9859-3E88968D0364}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{23456EE8-A8B5-48A0-AE45-283EB6CAD1C9}.Release|x64.Build.0 = Release|Any CPU
 		{23456EE8-A8B5-48A0-AE45-283EB6CAD1C9}.Release|x86.ActiveCfg = Release|Any CPU
 		{23456EE8-A8B5-48A0-AE45-283EB6CAD1C9}.Release|x86.Build.0 = Release|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Debug|x64.Build.0 = Debug|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Debug|x86.Build.0 = Debug|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Release|x64.ActiveCfg = Release|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Release|x64.Build.0 = Release|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Release|x86.ActiveCfg = Release|Any CPU
+		{2EA36C38-BB5C-4111-9859-3E88968D0364}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

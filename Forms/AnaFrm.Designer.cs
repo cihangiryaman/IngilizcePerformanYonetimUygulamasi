@@ -40,7 +40,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.konularBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ingilizcePerformansVeritabaniDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.ingilizcePerformansVeritabaniDataSet = new IngilizcePerformanYonetimUygulamasi.IngilizcePerformansVeritabaniDataSet();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.close_btn = new System.Windows.Forms.ToolStripButton();
             this.maximize_btn = new System.Windows.Forms.ToolStripButton();
@@ -49,7 +48,6 @@
             this.konuAnlatımıEkle_menuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.testEkle_menuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.islemSureci_tslbl = new System.Windows.Forms.ToolStripLabel();
-            this.konularTableAdapter = new IngilizcePerformanYonetimUygulamasi.IngilizcePerformansVeritabaniDataSetTableAdapters.KonularTableAdapter();
             this.panel2 = new System.Windows.Forms.Panel();
             this.grammarEkle_pnl = new System.Windows.Forms.Panel();
             this.olustur_btn = new ns1.BunifuThinButton2();
@@ -65,7 +63,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.konularBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ingilizcePerformansVeritabaniDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ingilizcePerformansVeritabaniDataSet)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.grammarEkle_pnl.SuspendLayout();
@@ -183,13 +180,10 @@
             // 
             // ingilizcePerformansVeritabaniDataSetBindingSource
             // 
-            this.ingilizcePerformansVeritabaniDataSetBindingSource.DataSource = this.ingilizcePerformansVeritabaniDataSet;
             this.ingilizcePerformansVeritabaniDataSetBindingSource.Position = 0;
             // 
             // ingilizcePerformansVeritabaniDataSet
             // 
-            this.ingilizcePerformansVeritabaniDataSet.DataSetName = "IngilizcePerformansVeritabaniDataSet";
-            this.ingilizcePerformansVeritabaniDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // toolStrip1
             // 
@@ -278,7 +272,6 @@
             // 
             // konularTableAdapter
             // 
-            this.konularTableAdapter.ClearBeforeFill = true;
             // 
             // panel2
             // 
@@ -433,8 +426,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.girisYapanKisi_pctrbx)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.konularBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ingilizcePerformansVeritabaniDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ingilizcePerformansVeritabaniDataSet)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -451,9 +442,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.BindingSource ingilizcePerformansVeritabaniDataSetBindingSource;
-        private IngilizcePerformansVeritabaniDataSet ingilizcePerformansVeritabaniDataSet;
         private System.Windows.Forms.BindingSource konularBindingSource;
-        private IngilizcePerformansVeritabaniDataSetTableAdapters.KonularTableAdapter konularTableAdapter;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button icerikEkle_btn;
         private System.Windows.Forms.Label girisYapanKisi_lbl;

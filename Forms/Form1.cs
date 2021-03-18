@@ -23,9 +23,15 @@ namespace IngilizcePerformanYonetimUygulamasi
             // TODO: This line of code loads data into the 'ingilizcePerformansVeritabaniDataSet.Konular' table. You can move, or remove it, as needed.
             //this.konularTableAdapter.Fill(this.ingilizcePerformansVeritabaniDataSet.Konular);
 
-            SinifBLL sinifBLL = new SinifBLL();
+            /*SinifBLL sinifBLL = new SinifBLL();
             sinifBLL.SilinecekSinifId = 18;
-            sinifBLL.DeleteData();
+            sinifBLL.DeleteData();*/
+
+            TestBLL testBLL = new TestBLL();
+            testBLL.GuncellenecekTestId = 22;
+            testBLL.SoruSayisi = 1;
+            testBLL.TestCozulduMu = true;
+            testBLL.UpdateData();
 
             foreach (Button button in flowLayoutPanel1.Controls)
             {
